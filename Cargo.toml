@@ -1,0 +1,16 @@
+[package]
+build = "build/main.rs"
+edition = "2021"
+name = "ap-dataflash"
+version = "0.1.0"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+[build-dependencies]
+convert_case = "0.5.0"
+proc-macro2 = "1.0.24"
+quick-xml = {version = "0.22.0", features = ["serialize"]}
+quote = "1.0"
+serde = {version = "1.0", features = ["derive"]}
