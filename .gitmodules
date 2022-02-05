@@ -1,0 +1,3 @@
+[submodule "build/ardupilot"]
+	path = build/ardupilot
+	url = https://github.com/ArduPilot/ardupilot
